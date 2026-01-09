@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="荻原達也">
+<meta name="description" content="府中市のあわけん">
+<title>あわけん</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/home-style.css">
+<link rel="stylesheet" href="css/table-style.css">
+
+</head>
+<body>
+<header>
+<h1>【居酒屋紹介】あわけん</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html">トップ</a></li>
+<li><a href="menu1.html">お品書き</a></li>
+<li><a href="about.html">こだわり</a></li>
+<li><a href="access.html">マップ</a></li>
+</ul>
+</nav>
+<main>
+
+<section>
+  <h2>お品書き</h2>
+
+  <form id="form">
+    <select name="select">
+      <option value="menu1.html">単品表示</option>
+      <option value="menu2.html">一覧表示</option>
+    </select>
+  </form>
+
+  <div class="slide-container">
+
+    <div class="slide-box">
+      <h3>Ⅰ. お好み焼き（府中焼き）メニュー</h3>
+      <div class="slide">
+        <img id="image1" src="img/S.jpg" alt="">
+        <p id="name1"></p>
+        <p id="price1"></p>
+        <div class="nav">
+          <button id="prev1">◀</button>
+          <span id="page1"></span>
+          <button id="next1">▶</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-box">
+      <h3>Ⅱ. その他のメニュー</h3>
+      <div class="slide">
+        <img id="image2" src="img/FYS.jpg" alt="">
+        <p id="name2"></p>
+        <p id="price2"></p>
+        <div class="nav">
+          <button id="prev2">◀</button>
+          <span id="page2"></span>
+          <button id="next2">▶</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</main>
+<footer>
+<p>Copyright 2025 あわけん.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
